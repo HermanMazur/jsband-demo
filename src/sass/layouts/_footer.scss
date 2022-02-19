@@ -1,10 +1,30 @@
+
 .cooperation__list {
-    &__item {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.cooperation__link {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 161px;
+height: 44px;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.31;
-
-
-color: var(--second-D41443);
+color: #D41443;
+background: #FFFFFF;
+border-radius: 22px;
     }
+
+.copyright__text {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.5;
+// text-align: center;
+color: #907E82;
 }
